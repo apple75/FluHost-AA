@@ -9,11 +9,10 @@ FluHost-AA is a reproducible computational platform for host-associated amino-ac
 - Kaggle is the canonical runtime for Python execution, testing, and scientific computation.
 - Scientific analysis code, parameters, and large data artifacts are introduced only through later project phases.
 
-The repository is organized into contracts, configuration, source, tests, Kaggle entry points, manifests, reports, workflows, and project documentation.
+The repository is organized into contracts, configuration, source, tests, Kaggle notebook snapshots, manifests, reports, workflows, and project documentation.
 
-## F1.1 Kaggle Entry Points
+## Kaggle Notebook Workflow
 
-- Engineering smoke baseline: `kaggle/notebooks/f1_1/pb2_f1_1_first_smoke_run.ipynb`
-- Prototype / later-stage reference: `kaggle/notebooks/prototype/pb2_scientific_prototype.ipynb`
+Kaggle is the development, interactive debugging, and execution environment for notebooks. GitHub's `kaggle/notebooks/` directory stores only frozen snapshots of validated Kaggle Notebook versions that completed Run All and Save Version. Draft, working, debugging, and prototype-in-progress notebooks are not part of the formal archive.
 
-The canonical Python source is `src/fluhost_pb2.py`. Kaggle code datasets or working directories must be generated from that source; duplicate copies are not maintained in this repository. The F1.1 notebook does not read `configs/pb2_prototype.yaml`; that file remains prototype configuration and does not control the F1.1 run.
+The canonical Python and project sources remain in `src/`, `tests/`, `configs/`, and `contracts/`. Kaggle code datasets or working directories must be generated from those sources; duplicate notebook copies are not maintained as implementation sources.

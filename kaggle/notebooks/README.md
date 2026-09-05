@@ -1,8 +1,7 @@
 # Kaggle Notebooks
 
-Place Kaggle notebook entry points here.
+This directory contains frozen snapshots of validated Kaggle Notebook versions. Kaggle is the working and development environment for notebooks. Only notebooks corresponding to saved Kaggle versions are archived here.
 
-- `f1_1/` contains the canonical F1.1 engineering smoke baseline notebook.
-- `prototype/` contains the historical prototype notebook for later-stage reference.
+Draft, working, debugging, and prototype-in-progress notebooks do not belong in this GitHub archive.
 
-The F1.1 notebook expects a Kaggle dataset mount containing `metadata.tsv` and `pb2_aligned.fasta`, plus a code mount generated from the canonical `src/fluhost_pb2.py` source.
+The canonical sources remain in `src/`, `tests/`, `configs/`, and `contracts/`. A saved Kaggle notebook version must use those sources or an explicitly recorded frozen package/input. Kaggle notebook working files are not the source of truth for the analysis implementation.
