@@ -1,0 +1,25 @@
+project: fluhost-aa
+phase: F1
+gene: PB2
+
+input:
+  metadata: /kaggle/input/fluhost-pb2-input/metadata.tsv
+  fasta: /kaggle/input/fluhost-pb2-input/pb2_aligned.fasta
+  aligned: true
+
+analysis:
+  host_groups: [Avian, Human]
+  exclude_gap: true
+  exclude_x: true
+  reference_mapping: optional_in_f1
+
+dissertation_anchor:
+  avian_count: 21041
+  human_count: 31137
+  position: 65
+  residue: D
+  avian_frequency: 0.0395
+  human_frequency: 0.3626
+
+outputs:
+  directory: /kaggle/working/fluhost_f1_pb2

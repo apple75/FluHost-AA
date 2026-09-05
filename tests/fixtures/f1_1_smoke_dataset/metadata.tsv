@@ -1,0 +1,11 @@
+sequence_id	accession	host_group	strain_name	subtype	gene	source_database	source_record_id
+CY018884	CY018884	Avian	A/green-winged_teal/Ohio/175/1986	H2N1	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	A/green-winged_teal/Ohio/175/1986_H2N1_HOST_Avian_CY018884
+CY004241	CY004241	Avian	A/mallard_duck/ALB/191/1990	H6N3	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	ref_A/mallard_duck/ALB/191/1990_H6N3_HOST_Avian_CY004241
+CY005437	CY005437	Avian	A/duck/Nanchang/2-0486/2000	H2N9	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	ref_A/duck/Nanchang/2-0486/2000_H2N9_HOST_Avian_CY005437
+CY005582	CY005582	Avian	A/duck/Hong_Kong/342/78	H5N2	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	ref_A/duck/Hong_Kong/342/78_H5N2_HOST_Avian_CY005582
+CY005690	CY005690	Avian	A/duck/Australia/749/1980	H1N1	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	ref_A/duck/Australia/749/1980_H1N1_HOST_Avian_CY005690
+AY209936	AY209936	Human	A/Albany/6/58	H2N2	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	ref_A/Albany/6/58_H2N2_HOST_Human_AY209936
+AY209945	AY209945	Human	A/Panama/1/66	H2N2	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	ref_A/Panama/1/66_H2N2_HOST_Human_AY209945
+AY210150	AY210150	Human	A/Tokyo/31/72	H3N2	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	ref_A/Tokyo/31/72_H3N2_HOST_Human_AY210150
+CY002759	CY002759	Human	A/Memphis/1/1986	H3N2	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	ref_A/Memphis/1/1986_H3N2_HOST_Human_CY002759
+CY003255	CY003255	Human	A/New_York/433/2000	H3N2	PB2	GitHub public research repository (jbloomlab/PB2-DMS)	ref_A/New_York/433/2000_H3N2_HOST_Human_CY003255

@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
 *.py[codz]
 *$py.class
 
@@ -77,6 +78,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -266,3 +268,10 @@ Thumbs.db
 !tests/fixtures/*.fasta
 !tests/fixtures/*.fa
 !tests/fixtures/*.csv
+
+# Allow small fixtures in reviewed subdirectories
+!tests/fixtures/**/*.fasta
+!tests/fixtures/**/*.fa
+!tests/fixtures/**/*.csv
+
+_staging/

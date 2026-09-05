@@ -1,0 +1,12 @@
+{
+  "dataset_id": "fluhost-aa-pb2-f1-1-smoke-v1",
+  "records": 10,
+  "avian": 5,
+  "human": 5,
+  "sequence_length": 759,
+  "metadata_sha256": "d45659abaec221aaa988c5b75255d0c51cea9a15d42d67decda3998246136595",
+  "fasta_sha256": "8838a2dbcd9b4f174db012c1248cdc343d2f9dfeb6940eb6517e93e1e02c1f55",
+  "source_repo": "jbloomlab/PB2-DMS",
+  "source_file": "compareS009/compareS009_avian_human.faa",
+  "intended_use": "engineering smoke test only"
+}
