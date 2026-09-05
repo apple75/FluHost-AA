@@ -1,0 +1,136 @@
+contract:
+  id: FLUHOST_AA_PROJECT_SCOPE
+  version: "1.0"
+  status: frozen
+  contract_type: project_scope
+
+project:
+  name: FluHost-AA
+
+  purpose:
+    - reproducible computational bioinformatics
+    - public naturally occurring Influenza A sequence analysis
+    - host-associated amino-acid statistical analysis
+    - phylogenetic analysis
+    - reassortment-context analysis
+    - temporal and lineage-disjoint machine-learning benchmarking
+    - One Health surveillance research
+
+  allowed_data_sources:
+    - NCBI
+    - BV-BRC
+    - public_research_datasets
+    - legally_authorized_research_data
+
+  conditional_data_sources:
+    GISAID:
+      condition: >
+        Use only when its data-use and redistribution requirements
+        are followed.
+
+research_scope:
+  allowed:
+    - public_sequence_download
+    - metadata_parsing
+    - metadata_normalization
+    - quality_control
+    - deduplication
+    - dataset_versioning
+    - checksum_generation
+    - fasta_processing
+    - multiple_sequence_alignment
+    - reference_position_mapping
+    - amino_acid_frequency_analysis
+    - naturally_observed_variant_annotation
+    - descriptive_statistics
+    - odds_ratio
+    - fisher_exact_test
+    - confidence_intervals
+    - multiple_testing_correction
+    - subtype_stratification
+    - temporal_stratification
+    - geographic_stratification
+    - lineage_aware_analysis
+    - phylogenetic_analysis
+    - phylogeny_aware_association
+    - reassortment_context_analysis
+    - genome_constellation_analysis
+    - sequence_derived_machine_learning
+    - temporal_generalization
+    - subtype_held_out_validation
+    - lineage_held_out_validation
+    - geography_held_out_validation
+    - leakage_analysis
+    - reproducibility_reporting
+
+  excluded:
+    - design_of_new_influenza_viruses
+    - synthetic_viral_genome_design
+    - optimization_for_pathogenicity
+    - optimization_for_transmission
+    - optimization_for_host_range_expansion
+    - optimization_for_immune_escape
+    - design_of_new_reassortant_viruses
+    - virus_rescue_protocols
+    - virus_culture_protocols
+    - infection_protocols
+    - adaptive_passaging_protocols
+
+scientific_interpretation:
+  default_claim_type: statistical_association
+
+  preferred_terms:
+    - host-associated amino-acid signal
+    - host-associated residue
+    - statistical association
+    - frequency difference
+    - cross-subtype consistency
+    - temporal stability
+    - geographic stability
+    - phylogenetic robustness
+    - naturally occurring variant
+    - candidate site for further investigation
+    - reassortment context
+    - genome constellation
+
+  causal_language_requires_explicit_evidence: true
+
+runtime_architecture:
+  source_of_truth: GitHub
+
+  control_plane:
+    platform: Windows
+    tools:
+      - VS Code
+      - Codex
+      - Git
+
+  canonical_runtime:
+    platform: Kaggle
+
+  optional_future_runtime:
+    - HPC
+    - WSL2
+
+scientific_parameter_governance:
+  controlled_parameters:
+    - host_ontology
+    - inclusion_criteria
+    - exclusion_criteria
+    - deduplication_rule
+    - qc_thresholds
+    - reference_sequence
+    - reference_numbering
+    - statistical_tests
+    - multiple_testing_correction
+    - sampling_strategy
+    - lineage_definition
+    - temporal_split
+    - benchmark_split
+    - causal_interpretation_terminology
+
+  change_process:
+    - proposal
+    - PI_review
+    - contract_update
+    - implementation

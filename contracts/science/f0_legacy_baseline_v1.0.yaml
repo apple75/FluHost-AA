@@ -1,0 +1,152 @@
+contract:
+  id: F0_LEGACY_BASELINE
+  version: "1.0"
+  status: draft
+  contract_type: scientific
+  phase: F0
+
+objective:
+  primary: >
+    Faithfully reproduce the historical thesis baseline using available
+    historical data, methods, records and outputs.
+
+  modernization_allowed: false
+
+principles:
+  preserve_documented_historical_choices: true
+  infer_missing_scientific_parameters: false
+  replace_historical_methods_with_modern_defaults: false
+  record_discrepancies: true
+  separate_reproduction_from_modernization: true
+
+legacy_assets:
+  thesis_document:
+    status: TBD
+
+  raw_sequence_files:
+    status: TBD
+
+  metadata_files:
+    status: TBD
+
+  historical_scripts:
+    status: TBD
+
+  historical_tables:
+    status: TBD
+
+  historical_figures:
+    status: TBD
+
+  software_versions:
+    status: TBD
+
+scientific_parameters:
+
+  target_segment:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  host_ontology:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  inclusion_criteria:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  exclusion_criteria:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  deduplication_rule:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  qc_thresholds:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  reference_sequence:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  reference_numbering:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  subtype_scope:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  temporal_scope:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  geographic_scope:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+statistics:
+
+  frequency_method:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  statistical_test:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  multiple_testing_correction:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+  significance_threshold:
+    value: TBD
+    source: legacy_thesis
+    change_policy: PI_REVIEW_REQUIRED
+
+expected_historical_outputs:
+
+  sample_counts:
+    status: TBD
+
+  amino_acid_frequency_tables:
+    status: TBD
+
+  key_sites:
+    status: TBD
+
+  figures:
+    status: TBD
+
+  supplementary_tables:
+    status: TBD
+
+validation:
+
+  exact_reproduction_required_where_possible: true
+
+  discrepancy_register_required: true
+
+  runtime:
+    canonical: Kaggle
+
+  pass_policy: >
+    F0 PASS requires reproducible reconstruction of all recoverable
+    historical results, explicit accounting of unrecoverable differences,
+    frozen provenance, and completed discrepancy documentation.
