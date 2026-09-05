@@ -216,3 +216,53 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# FluHost-AA scientific data
+# =========================
+
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# Large sequence/data files
+*.fasta
+*.fa
+*.fas
+*.fna
+*.faa
+*.fastq
+*.fastq.gz
+*.parquet
+
+# Alignment / phylogeny outputs
+*.aln
+*.phy
+*.treefile
+*.contree
+*.iqtree
+*.mldist
+
+# Runtime outputs
+results/
+logs/
+tmp/
+.cache/
+
+# Kaggle working artifacts
+kaggle/working/
+
+# Local secrets / credentials
+.env
+*.token
+kaggle.json
+
+# OS/editor
+Thumbs.db
+.DS_Store
+
+# Allow tiny committed test fixtures
+!tests/fixtures/*.fasta
+!tests/fixtures/*.fa
+!tests/fixtures/*.csv
