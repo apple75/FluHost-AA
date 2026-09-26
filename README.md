@@ -236,8 +236,6 @@ Current work covers HA site prioritization, H1/H3 validation and visualization, 
 
 ## Contact
 
-Researcher: `[RESEARCHER NAME]`
+Researcher: `Guoping Tan`
 
-Contact: `[CONTACT EMAIL]`
-
-ORCID: `[ORCID, IF APPLICABLE]`
+Contact: `gptan@hhu.edu.cn`
