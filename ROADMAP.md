@@ -1,11 +1,12 @@
 # Roadmap
 
-This is a sequence of intended work, not a schedule or claim of completion.
+This is a status map, not a schedule or claim of scientific validation. The [methods page](METHODS.md) separates project-reported Kaggle runtime validation from evidence available in GitHub.
 
-1. **F0 historical reproduction:** locate legacy assets, resolve `TBD` items through review, freeze provenance, reproduce recoverable outputs in Kaggle, and document discrepancies against the [F0 contract](contracts/science/f0_legacy_baseline_v1.0.yaml).
-2. **HA analysis:** approve scientific parameters, implement subtype-specific alignment and reference mapping, and assess Human vs Avian frequency differences.
-3. **Robustness:** add temporal, geographic, lineage, and phylogeny-aware checks under approved contracts.
-4. **Expanded context:** add reassortment-context analysis and leakage-aware ML generalization benchmarks with approved splits.
-5. **Reviewable releases:** publish code, contracts, manifests, checksums, validation reports, and appropriately shareable lightweight results tied to fixed commits.
+| Status | Work |
+| --- | --- |
+| Reported completed and runtime-validated in Kaggle | HA public dataset reconstruction, subtype-specific MSA, reference-position mapping, all-subtype Human vs Avian amino-acid frequencies, and within-subtype frequency differences. Supporting run records and outputs are not committed here. |
+| In progress | HA site prioritization; H1/H3 detailed validation and visualization; statistical association testing; cross-subtype consistency. |
+| Planned | Temporal, geographic, lineage, and phylogeny-aware validation; reassortment-context analysis; leakage-aware ML generalization benchmarks under approved splits. |
+| Separate F0 phase | Historical baseline reproduction under the [draft F0 contract](contracts/science/f0_legacy_baseline_v1.0.yaml); recover historical assets and resolve `TBD` choices through review before claiming F0 PASS. |
 
-The current repository contains the project structure and contracts; these analytical milestones are not represented as completed. See [methods](METHODS.md) and [reproducibility](docs/reproducibility.md).
+The next reproducibility milestone is to add shareable lightweight QC summaries, manifests, code and configuration references, and validation reports tied to fixed commits, without adding restricted or large raw datasets. See [reports/validation](reports/validation/README.md) for the missing Stage07 and Stage08B evidence categories.

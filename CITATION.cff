@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite this repository using the metadata below after the maintainer completes the placeholders."
+message: "Please cite this software repository when using it in research."
 title: "FluHost-AA: computational analysis of host-associated amino-acid signals in Influenza A"
 type: software
 authors:
-  - family-names: "[RESEARCHER SURNAME]"
-    given-names: "[RESEARCHER GIVEN NAME]"
+  - family-names: "Tan"
+    given-names: "Guoping"
+    email: "gptan@hhu.edu.cn"
 abstract: "Research and reproducibility repository for statistical analysis of publicly available, naturally occurring Influenza A virus sequences."

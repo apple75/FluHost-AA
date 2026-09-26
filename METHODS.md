@@ -1,13 +1,15 @@
 # Methods and analytical status
 
-This page describes the analytical program, not a completed or approved parameter set. The [project scope contract](contracts/project/scope_v1.0.yaml) defines allowed work. Governed choices such as host ontology, inclusion criteria, QC, references, statistical tests, and splits require the proposal -> PI review -> contract update -> implementation process. No missing choice is inferred here. The planned HA focus does not determine F0's target segment or other historical parameters; those remain `TBD` in the F0 contract.
+The table separates **project-reported Kaggle runtime validation** from evidence committed to this repository. No HA code, run record, QC summary, output manifest, or statistical result is currently committed here for independent verification. Runtime validation does not establish scientific validation or approve an undocumented parameter. The [frozen project scope contract](contracts/project/scope_v1.0.yaml) governs allowed work; the separate [F0 contract](contracts/science/f0_legacy_baseline_v1.0.yaml) remains draft with historical choices `TBD`.
 
-| Stage | Intended analysis | Current status |
+| Stage | Activity | Status |
 | --- | --- | --- |
-| F0 historical baseline | Recover the thesis data, choices, and outputs; reproduce recoverable results and record discrepancies | Draft [F0 contract](contracts/science/f0_legacy_baseline_v1.0.yaml); historical assets and parameters `TBD` |
-| HA preparation | Validate metadata and sequences, subtype-specific MSA, and reference-position mapping | Planned; reference and QC choices require approved contracts |
-| Association | Compare Human vs Avian amino-acid frequencies within subtypes, with contract-approved statistical tests and multiplicity handling | Planned; host ontology and tests are not yet specified |
-| Robustness | Assess cross-subtype consistency, temporal and geographic stability, and phylogenetic robustness | Planned; strata and methods require approval |
-| Context and generalization | Analyze reassortment context and genome constellations; evaluate ML with temporal, lineage, subtype, or geographic holdouts and leakage checks | Planned; benchmarks and splits require approval |
+| HA dataset reconstruction | Reconstruct the public HA sequence dataset | Project-reported completed and runtime-validated in Kaggle; supporting artifacts are not committed here |
+| HA alignment and mapping | Subtype-specific MSA and reference-position mapping | Project-reported completed and runtime-validated in Kaggle; reference and QC details are not committed here |
+| HA descriptive frequencies | All-subtype Human vs Avian amino-acid frequencies and within-subtype Human minus Avian frequency differences | Project-reported completed and runtime-validated in Kaggle; tables and run evidence are not committed here |
+| HA site assessment | Site prioritization, H1/H3 detailed validation and visualization, statistical association testing, and cross-subtype consistency | In progress; no completed downstream validation is claimed |
+| Robustness | Temporal, geographic, lineage, and phylogeny-aware validation | Planned; no completed validation is claimed |
+| Expanded context | Reassortment context and genome constellations; leakage-aware temporal and held-out ML benchmarks | Planned |
+| F0 historical baseline | Recover historical choices and outputs, reproduce recoverable results, and record discrepancies | Separate reproduction phase; draft contract and `TBD` parameters |
 
-Core analysis belongs in reusable package functions under `src/`; notebooks under `kaggle/` should orchestrate them. Formal results require versioned data provenance, recorded configuration, runtime validation in Kaggle, and interpretation as statistical association. See [reproducibility](docs/reproducibility.md).
+Governed choices include host ontology, inclusion and exclusion rules, deduplication, QC, reference sequence and numbering, statistical tests and correction, sampling, lineage definitions, and validation splits. They require proposal -> PI review -> contract update -> implementation. No choice is inferred from a reported runtime result. Core logic should reside in reusable package functions under `src/`, with notebooks under `kaggle/` orchestrating them. See [reproducibility](docs/reproducibility.md) and the [validation evidence inventory](reports/validation/README.md).

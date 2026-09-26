@@ -6,4 +6,4 @@ For documentation or code contributions, keep changes focused, document assumpti
 
 Do not submit large raw FASTA files, restricted datasets, credentials, personal information, confidential material, or experimental protocols. Report missing historical information as `UNKNOWN` or `TBD`, and describe results as statistical associations unless stronger claims have explicit cited support.
 
-Maintainer contact: [CONTACT EMAIL]
+Maintainer contact: gptan@hhu.edu.cn

@@ -50,7 +50,7 @@ The current HA analysis pipeline includes:
 10. temporal and geographic validation
 11. phylogeny-aware association analysis
 
-### Current status
+### Current status and evidence
 
 The project reports these stages as completed and runtime-validated in Kaggle:
 
@@ -60,7 +60,7 @@ The project reports these stages as completed and runtime-validated in Kaggle:
 - all-subtype Human vs Avian amino-acid frequency analysis
 - within-subtype Human minus Avian frequency-difference analysis
 
-Run logs, output manifests, and validation reports for these stages are not yet present in this repository for independent review.
+**Evidence committed to GitHub:** the scope and F0 contracts, documentation, and directory guides are present. Source code, run logs, output manifests, QC summaries, and validation reports for the reported HA stages are not present here for independent review. Runtime validation is not the same as scientific validation against an approved analysis contract. See the [validation evidence inventory](reports/validation/README.md).
 
 Current work focuses on:
 
@@ -172,6 +172,8 @@ See:
 
 - [Project scope](RESEARCH_SCOPE.md)
 - [Safety and governance](SAFETY_AND_GOVERNANCE.md)
+- [Access and safety governance](docs/access_and_safety_governance.md)
+- [Proposed GPT-Rosalind use case](docs/gpt_rosalind_use_case.md)
 - [Scientific interpretation](docs/scientific_interpretation.md)
 
 ---
@@ -198,14 +200,14 @@ Historical reproduction and current methodological development are treated as se
 | Path | Purpose |
 | --- | --- |
 | `contracts/` | Governed project scope and scientific parameters |
-| `configs/` | Runtime configuration separate from scientific contracts |
+| `configs/` | Runtime-configuration guidance, separate from scientific contracts |
 | `data/` | Data-stage documentation; large raw datasets are not stored in Git |
-| `manifests/` | Dataset and result provenance records |
-| `src/` | Reusable scientific software |
-| `tests/` | Automated tests |
-| `kaggle/` | Kaggle runtime assets and notebooks |
-| `workflows/` | Scientific workflow definitions |
-| `reports/` | Lightweight validation and analysis reports |
+| `manifests/` | Provenance-record directory; no HA manifest committed yet |
+| `src/` | Package scaffold; no HA analysis implementation committed yet |
+| `tests/` | Test scaffold; no automated test code committed yet |
+| `kaggle/` | Runtime directory guides; no notebook committed yet |
+| `workflows/` | Workflow directory guides; no executable workflow committed yet |
+| `reports/` | Report guidance; no HA run report committed yet |
 | `docs/` | Architecture, methods, interpretation, reproducibility, and project documentation |
 
 ---

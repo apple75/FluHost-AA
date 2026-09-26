@@ -1,0 +1,11 @@
+# Proposed GPT-Rosalind use case
+
+**Status: proposed only.** This repository does not establish GPT-Rosalind access, approval, an organizational agreement, or a deployed integration. The proposed benefit is more efficient, auditable computational analysis of publicly available, naturally occurring Influenza A sequences for One Health surveillance research.
+
+If approved, named researchers could use GPT-Rosalind within an authorized workspace to help review public literature and dataset documentation, inspect metadata and provenance, review analysis code and QC summaries, compare observed HA Human vs Avian amino-acid frequency patterns across subtypes, and draft reproducible computational analysis or reporting plans. Human researchers would verify sources, run approved workflows in Kaggle, inspect outputs, and retain responsibility for interpretation. Proposed future assistance with temporal, geographic, lineage, and phylogeny-aware checks would occur only after the relevant scientific parameters and contracts are approved.
+
+Outputs would be framed as *host-associated amino-acid signals*, *frequency differences*, and other statistical associations. A model suggestion would not establish a scientific result, alter a governed parameter, or convert an association into a causal biological claim. Restricted data would be used only if its terms and the approved access environment permit it; large raw datasets need not be placed in model context.
+
+**Out of scope:** design or optimization of novel influenza viruses or reassortants; synthetic genomes; enhancement of pathogenicity, transmissibility, host range, immune escape, or fitness; virus rescue, culture, propagation, infection, serial passage, or adaptation protocols; unauthorized access to data or systems; and unreviewed autonomous execution or publication. These boundaries follow the [project scope contract](../contracts/project/scope_v1.0.yaml) and [AGENTS.md](../AGENTS.md).
+
+Access would require an eligible applicant, approved users, and operational controls described in [access and safety governance](access_and_safety_governance.md). OpenAI's [GPT-Rosalind guidance](https://help.openai.com/en/articles/20001193-gpt-rosalind-for-life-sciences-research) describes the current eligible-organization and approved-user model.
